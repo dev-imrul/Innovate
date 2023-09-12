@@ -1,0 +1,819 @@
+/* ==========Common CSS Start=========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+}
+
+body{
+    /* overflow-x: hidden; */
+}
+
+/* ==========Common CSS End=========== */
+/* ==========Navbar CSS Start=========== */
+.navbar {
+    background: rgba(22, 12, 109, 0.637);
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    /* padding-right: var(--bs-navbar-nav-link-padding-x); */
+    /* padding-left: var(--bs-navbar-nav-link-padding-x); */
+    padding-left: 35px;
+    padding-right: 35px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    transition: all linear 0.4s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #1BBF00;
+}
+
+.nav-button {
+    border: 2px solid #1BBF00;
+    border-radius: 50px;
+
+}
+
+
+.nav-button button {
+    padding: 14px 28px;
+    background: none;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    transition: all linear 0.4s;
+
+}
+
+.nav-button button:hover {
+    background: #1BBF00;
+}
+
+/* ==========Navbar CSS End=========== */
+/* ==========Banner Start=========== */
+#banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 246px;
+    padding-bottom: 254px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner_left_shape {
+    position: absolute;
+    left: 31px;
+    top: 304px;
+}
+
+.banner_right_shape {
+    position: absolute;
+    bottom: 73px;
+    right: 310px;
+}
+
+#banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(106, 98, 197, 0.829);
+    z-index: -1;
+}
+
+.banner-details h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 84px;
+    font-weight: 700;
+    color: #FAFAFE;
+    line-height: 100px;
+}
+
+.banner-details p {
+    font-family: 'Paprika', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #E6E5F3;
+    line-height: 40px;
+    width: 715px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 16px;
+
+}
+
+.banner-buttons button {
+    transition: all linear 0.4s;
+}
+
+.banner-buttons button:hover {
+    background: #1BBF00;
+
+}
+
+
+
+
+
+.button-left {
+    padding: 20px 40px;
+    background: none;
+    border-radius: 50px;
+    border: 2px solid #1BBF00;
+    color: #F9F9F9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-right: 14px;
+}
+
+
+
+
+
+
+
+
+
+.button-right {
+    padding: 20px 40px;
+    color: #F9F9F9;
+    background: none;
+    border-radius: 50px;
+    border: 2px solid #1BBF00;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 14px;
+}
+
+/* ==========Banner End=========== */
+/* ==========Counter Start=========== */
+#counter {
+    padding: 280px 0;
+    position: relative;
+}
+
+/* #counter .container .row .col-lg-3 {
+    text-align: center;
+    border-right: 1px solid #4F585F;
+
+}
+
+#counter .container .row .col-lg-3:last-child {
+    border-right: none;
+} */
+
+
+.col-lg-3 {
+    text-align: center;
+    border-right: 1px solid #4F585F;
+
+}
+
+.col-lg-3:last-child {
+    border-right: none;
+}
+
+
+
+.counter-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    color: #1BBF00;
+
+}
+
+.counter-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #141135;
+    line-height: 40px;
+
+
+}
+
+
+.counter-shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+/* ==========Counter End=========== */
+/* ==========Why Choose Us Start=========== */
+#why-choose-id {
+    background: #FDFDFD;
+    position: relative;
+
+}
+
+.choose-us-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.col-lg-6 {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.pointer-text {
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    padding: 0px 146px 0px 28px;
+    transition: all linear 0.4s;
+
+    height: 145px;
+
+
+
+}
+
+.pointer-text:hover {
+    background: #FFF;
+    box-shadow: 10px 30px 60px 0px rgba(162, 169, 192, 0.15);
+    padding: 42px 146px 42px 28px;
+}
+
+.circle-pointer {
+    background: #1BBF00;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circle-pointer::after {
+    content: "";
+    background: #CBC8F0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+
+.choose-us-text {
+    margin-left: 37px;
+    width: 319px;
+    z-index: 33;
+}
+
+.choose-us-text p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+}
+
+
+.col-lg-5 {
+    padding-top: 65px;
+}
+
+
+
+.col-lg-5 h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    color: #141135;
+    font-weight: 700;
+}
+
+.col-lg-5 p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    color: #726E9E;
+    font-weight: 400;
+    line-height: 30px;
+    width: 393px;
+    padding-top: 9px;
+    padding-bottom: 40px;
+}
+
+.why-choose-us-button {
+    padding: 20px 40px;
+    background: none;
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: 24px;
+    /* 120% */
+    border: 2px solid #1BBF00;
+    border-radius: 50px;
+    transition: all linear 0.4s;
+}
+
+.why-choose-us-button:hover {
+    background: #1BBF00;
+    color: white;
+
+}
+
+/* ==========Why Choose Us End=========== */
+/* ==========Services Part Start=========== */
+#Services {
+    padding: 100px 0;
+    background: #F6F5FF;
+}
+
+
+.what-we-do-part {
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+.what-we-do-part h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #141135;
+}
+
+.what-we-do-part p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #6C7D93;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 56px;
+}
+
+
+
+
+
+
+.cards {
+    background: white;
+    padding: 48px 0;
+    border-radius: 20px;
+    margin-top: 30px;
+
+    height: 440px;
+
+    color: #141135;
+    transition: all linear 0.4s;
+
+}
+
+.cards:hover {
+    background: #6B62C5;
+}
+
+.cards:hover h4 {
+    color: white;
+}
+
+.cards:hover p {
+    color: white;
+}
+
+.cards:hover a {
+    color: white;
+}
+
+.cards h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    padding-top: 32px;
+}
+
+.cards p {
+    font-family: 'Paprika', cursive;
+    color: #726E9E;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 278px;
+    margin: 0 auto;
+    padding: 32px 0 20px 0;
+}
+
+.cards a {
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    z-index: 1;
+}
+
+.cards a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 100%;
+    height: 100%;
+    background: rgba(76, 170, 61, 0.5);
+    border-radius: 0px 40px 40px 0px;
+    transition: all linear 0.4s;
+    z-index: -1;
+}
+
+.cards a:hover::after {
+    left: 0px;
+}
+
+/* ==========Services Part End=========== */
+/* ==========Real Impact Start=========== */
+
+#impact-part {
+    background: white;
+}
+
+#impact-part h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#impact-part p {
+    font-family: 'Paprika', cursive;
+    color: #726E9E;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-top: 23px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+.impact-text-part img {
+    height: 100%;
+    margin-right: 35px;
+}
+
+.impact-text h3 {
+    text-align: left;
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.impact-text p {
+    color: #726E9E;
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 343px;
+}
+
+/* ==========Real Impact End=========== */
+/* ==========The Right Plan Start=========== */
+#the-right-plan {
+    background: #F9F9FB;
+}
+
+#the-right-plan .row {
+    padding-bottom: 50px;
+}
+
+.right-plan-headline h3 {
+    color: #141135;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+.plan-card-wrapper .plan-card {
+    margin: 0px 15px;
+}
+
+.plan-card-wrappe:first-child {
+    margin-left: 0px;
+}
+
+.plan-card-wrappe:last-child {
+    margin-left: 0px;
+}
+
+.plan-card {
+    background: #ffffff;
+    border-radius: 20px;
+    transition: all linear 0.4s;
+    margin-top: 20px;
+    border-right: none;
+    
+}
+
+.plan-card:hover {
+    background: #6B62C5;
+}
+
+
+.plan-card h3 {
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 55px 0 30px 0;
+    transition: all linear 0.4s;
+
+}
+
+.plan-card:hover h3 {
+    color: white;
+}
+
+.plan-card-emoji {
+    background: rgb(245, 245, 245);
+}
+
+
+
+.plan-card p {
+    font-family: 'Paprika', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 15px;
+    width: 211px;
+    color: #726E9E;
+    margin: 0 auto;
+    padding-bottom: 58px;
+    transition: all linear 0.4s;
+
+}
+
+.plan-card:hover P {
+    color: white;
+}
+
+.dollar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.dollar h4 {
+    font-family: 'Quicksand', sans-serif;
+    color: #1BBF00;
+    font-size: 24px;
+    margin-top: 17px;
+}
+
+.dollar h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #1BBF00;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+
+
+/* ==========The Right Plan End=========== */
+/* ==========About Us Start=========== */
+#about-us {
+    background: #F8F8FF;
+    padding: 100px 0;
+}
+
+.about-us-headline {
+    font-family: 'Open Sans', sans-serif;
+    color: #141135;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.about-us-details {
+    padding: 120px 0 56px 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.30);
+    text-align: center;
+    position: relative;
+}
+
+.about-us-man {
+    position: absolute;
+    top: -77px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-us-details .icon i {
+    color: #141135;
+}
+
+.icon {
+    padding-bottom: 33px;
+}
+
+.about-us-details p {
+    color: #726E9E;
+    text-align: center;
+    font-family: 'Paprika', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.man-info {
+    padding-top: 48px;
+}
+
+.slider-left {
+    position: absolute;
+    top: 45%;
+    left: -10%;
+    opacity: 0.3;
+    transition: all linear 0.4s;
+}
+
+.slider-left:hover {
+    opacity: 1;
+}
+
+.slider-right {
+    position: absolute;
+    top: 45%;
+    right: -10%;
+    opacity: 0.3;
+    transition: all linear 0.4s;
+
+
+}
+
+.slider-right:hover {
+    opacity: 1;
+}
+
+/* ==========About Us End=========== */
+
+
+/* ==========Why Choose Us Start=========== */
+/* ==========Why Choose Us End=========== */
+
+
+/* ==========Footer-Part Start=========== */
+
+
+#footer-body {
+    background: #48409c;
+}
+
+a.logo {
+    padding-top: 145px;
+    padding-bottom: 44px;
+}
+
+.f-left p {
+
+    font-family: 'Open Sans', sans-serif;
+
+    /* font-family: 'Nunito Sans', sans-serif; */
+    width: 449px;
+    color: #fefefe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+
+.foot {
+    width: 200px;
+    margin-top: 140px;
+}
+
+.F-title a {
+    font-family: 'Open Sans', sans-serif;
+    color: #fefefe;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.s-Links {
+    padding-top: 40px;
+}
+
+.s-Links .Links li {
+    padding-top: 25px;
+}
+
+.s-Links .Links li a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    /* 24px */
+    text-transform: capitalize;
+    margin-left: -30px;
+}
+
+.policy {
+    padding-top: 80px;
+    padding-bottom: 57px;
+}
+
+.policy h5 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fefefe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+
+.policy a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fefefe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+
+a span {
+    margin-right: 100px;
+}
+
+
+
+
+
+
+/* ==========Footer-Part End=========== */

@@ -1,0 +1,384 @@
+@media (max-width: 575.98px) {
+
+    .banner-details h1 {
+        font-size: 38px;
+        line-height: 52px;
+    }
+
+    .banner-details p {
+        font-size: 16px;
+        line-height: 32px;
+        width: auto;
+    }
+
+    #banner {
+        padding-top: 178px;
+        padding-bottom: 120px;
+
+    }
+
+    #counter {
+        padding: 150px 0;
+
+    }
+
+    .counter-shape {
+        display: none;
+    }
+
+    #counter {
+        padding: 40px 0;
+    }
+
+    .counter-text {
+        margin-top: 20px;
+    }
+
+    .counter-text h3 {
+        font-size: 40px;
+    }
+
+    .counter-text p {
+        font-size: 28px;
+    }
+
+    .col-lg-5 h3 {
+        font-size: 30px;
+    }
+
+
+    .col-lg-5 p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        padding-bottom: 20px;
+    }
+
+    .why-choose-us-button {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    .col-lg-6 {
+        padding-top: 45px;
+        padding-bottom: 5px;
+    }
+
+    .what-we-do-part h3 {
+        font-size: 29px;
+    }
+
+    .what-we-do-part p {
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 6px;
+        padding-bottom: 3px;
+    }
+
+    #Services {
+        padding: 10px 0;
+    }
+
+    #impact-part h3 {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+
+    #impact-part p {
+        font-size: 16px;
+        line-height: 27px;
+        padding-top: 13px;
+        padding-bottom: 0px;
+    }
+
+    #about-us {
+        padding: 20px 0;
+    }
+
+    .about-us-headline {
+        font-size: 23px;
+        padding-bottom: 106px;
+    }
+
+    .about-us-details p {
+        font-size: 16px;
+        line-height: 29px;
+        width: auto;
+    }
+
+    .icon {
+        padding-bottom: 12px;
+    }
+
+    .man-info {
+        padding-top: 20px;
+    }
+
+    .about-us-details {
+        padding: 83px 0 56px 0;
+
+    }
+
+    .col-lg-6 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .F-title a {
+        font-size: 18px;
+        line-height: 0%;
+    }
+
+    .s-Links .Links li a {
+        font-size: 16px;
+    }
+
+    .foot {
+        margin-top: 70px;
+    }
+
+    .s-Links {
+        padding-top: 0px;
+    }
+
+    .s-Links .Links li {
+        padding-top: 10px;
+    }
+
+    .policy a {
+
+        font-size: 16px;
+
+    }
+
+    .policy h5 {
+
+        font-size: 16px;
+
+    }
+}
+
+/* =========================================== */
+/* =========================================== */
+/* =========================================== */
+/* =========================================== */
+/* =========================================== */
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .banner-details h1 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+
+    #banner {
+        padding-top: 210px;
+        padding-bottom: 97px;
+    }
+
+    .banner-details p {
+        font-size: 18px;
+        line-height: 35px;
+        width: auto;
+        padding-top: 5px;
+        padding-bottom: 16px;
+    }
+
+    .button-left {
+        padding: 10px 10px;
+
+    }
+
+    .button-right {
+        padding: 10px 10px;
+
+    }
+
+    .counter-text h3 {
+        font-size: 40px;
+    }
+
+    .counter-text p {
+        font-size: 28px;
+    }
+
+
+
+    #counter {
+        padding: 65px 0;
+    }
+
+    .counter-shape {
+        display: none;
+    }
+
+    .col-lg-5 {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .col-lg-5 h3 {
+        font-size: 35px;
+    }
+
+    .col-lg-5 p {
+        font-size: 16px;
+        padding-bottom: 12px;
+
+    }
+
+    .why-choose-us-button {
+        padding: 5px 10px;
+
+    }
+
+    #Services {
+        padding: 70px 0;
+    }
+
+    .what-we-do-part h3 {
+        font-size: 30px;
+    }
+
+    .what-we-do-part p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-top: 11px;
+        padding-bottom: 4px;
+    }
+
+    #impact-part h3 {
+        font-size: 30px;
+    }
+
+    #impact-part p {
+        font-size: 16px;
+        line-height: 28px;
+        padding-top: 23px;
+        padding-bottom: 0px;
+    }
+
+    .col-lg-5 h3 {
+        font-size: 22px;
+    }
+
+    .col-lg-5 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .right-plan-headline h3 {
+        font-size: 35px;
+    }
+
+    .col-lg-6 {
+        padding-top: 75px;
+        padding-bottom: 40px;
+    }
+
+    .about-us-headline {
+        font-size: 35px;
+    }
+
+    .icon {
+        padding-bottom: 20px;
+    }
+
+    .about-us-details p {
+        font-size: 19px;
+        line-height: 32px;
+        width: auto;
+    }
+
+    .about-us-details {
+        padding: 91px 0 35px 0;
+
+    }
+
+    .man-info {
+        padding-top: 30px;
+    }
+
+    .col-lg-6 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .F-title a {
+        font-size: 20px;
+    }
+
+    .s-Links .Links li a {
+        font-size: 16px;
+    }
+
+    .s-Links {
+        padding-top: 0px;
+    }
+
+    .s-Links .Links li {
+        padding-top: 12px;
+    }
+}
+
+/* ======================================== */
+/* ======================================== */
+/* ======================================== */
+/* ======================================== */
+/* ======================================== */
+
+@media (min-width: 769px) and (max-width: 1320px) {
+
+    .banner-details h1 {
+        font-size: 50px;
+        line-height: 80px;
+    }
+
+    #banner {
+        padding-top: 210px;
+        padding-bottom: 135px;
+    }
+
+    #counter {
+        padding: 155px 0;
+    }
+
+    .what-we-do-part h3 {
+        font-size: 40px;
+    }
+
+    #Services {
+        padding: 40px 0;
+    }
+
+    .why-choose-us-button {
+        padding: 10px 25px;
+        margin-bottom: 25px;
+    }
+
+    .what-we-do-part p {
+        padding-bottom: 15px;
+    }
+
+    .right-plan-headline h3 {
+        font-size: 40px;
+    }
+    .about-us-headline {
+        font-size: 35px;
+    }
+    .about-us-details p {
+        font-size: 20px;
+        line-height: 35px;
+        width: auto;
+    }
+    .col-lg-6 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+/* ================================== */
+/* ================================== */
+/* ================================== */
+/* ================================== */
+/* ================================== */
+/* ================================== */
